@@ -966,6 +966,11 @@ tr .GGBOEFPDOW,
   padding-top: 3px;
 }
 
+.GGBOEFPDNVC .gwt-CheckBox {
+  bottom: 0px;
+  position: absolute;
+}
+
 /* Widgets */
 .macintosh .gwt-CheckBox input[type="checkbox"],
 .linux .gwt-CheckBox input[type="checkbox"] {

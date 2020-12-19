@@ -6,7 +6,6 @@
   --editor-background-color: 30, 30, 30;
   --editor-background: rgb(var(--editor-background-color));
   /* --editor-foreground: rgb(204, 204, 204); */
-
   --editor-foreground: rgb(212, 212, 212);
   --panes-background: rgb(37, 37, 38);
 
@@ -51,6 +50,7 @@
   --input-fields-border: rgb(40, 40, 40);
   --widgets-border: rgb(27, 27, 27);
   --input-disabled: rgb(50, 50, 50);
+  --button-gradient: linear-gradient(to bottom, rgb(53, 53, 53) 20%, rgb(50, 50, 50) 100%);
 
   /* system ui */
   --ui-highlight: rgb(21, 83, 158);
@@ -713,7 +713,7 @@ table.rstheme_tabLayoutCenter,
 .rstudio-themes-flat button.GGBOEFPDN1>table:first-child {
   border: solid 1px var(--border-color);
   border-radius: 4px;
-  background: linear-gradient(to bottom, rgb(53, 53, 53) 20%, rgb(50, 50, 50) 100%);
+  background: var(--button-gradient);
   box-shadow: 0 1px rgb(43, 43, 43);
   color: var(--fonts-color);
 }
@@ -721,7 +721,7 @@ table.rstheme_tabLayoutCenter,
 .rstudio-themes-flat button.GGBOEFPDH1>table:first-child {
   border: solid 1px var(--border-color);
   border-radius: 4px;
-  background: linear-gradient(to bottom, rgb(53, 53, 53) 20%, rgb(50, 50, 50) 100%);
+  background: var(--button-gradient);
   box-shadow: 0 1px rgb(43, 43, 43);
   overflow: hidden;
 }
@@ -734,20 +734,20 @@ table.rstheme_tabLayoutCenter,
 
 .rstudio-themes-flat button.gwt-Button-DefaultDialogAction>table:first-child {
   border: solid 1px var(--border-color);
-  background: linear-gradient(to bottom, rgb(53, 53, 53) 20%, rgb(50, 50, 50) 100%);
+  background: var(--button-gradient);
 }
 
 .GGBOEFPDGP .gwt-TabLayoutPanelTab:first-child {
-  background: linear-gradient(to bottom, rgb(53, 53, 53) 20%, rgb(50, 50, 50) 100%);
+  background: var(--button-gradient);
   border-left: 1px solid var(--border-color);
 }
 
 .GGBOEFPDGP .gwt-TabLayoutPanelTab:last-child {
-  background: linear-gradient(to bottom, rgb(53, 53, 53) 20%, rgb(50, 50, 50) 100%);
+  background: var(--button-gradient);
 }
 
 .GGBOEFPDGP .gwt-TabLayoutPanelTab {
-  background: linear-gradient(to bottom, rgb(53, 53, 53) 20%, rgb(50, 50, 50) 100%);
+  background: var(--button-gradient);
   border-right: 1px solid var(--border-color);
   border-top: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
@@ -775,7 +775,7 @@ table.rstheme_tabLayoutCenter,
 select {
   border: solid 1px var(--border-color);
   border-radius: 4px;
-  background: linear-gradient(to bottom, rgb(53, 53, 53) 20%, rgb(50, 50, 50) 100%);
+  background: var(--button-gradient);
   box-shadow: 0 1px rgb(43, 43, 43);
   color: var(--fonts-color);
 }
@@ -826,7 +826,7 @@ iframe {
 }
 
 .GGBOEFPDAOC {
-  background: var(--ui-highlight);
+  background: var(--ui-highlight) !important;
 }
 
 .GGBOEFPDEW,
@@ -872,9 +872,9 @@ iframe {
 
 .GGBOEFPDENC {
   border-bottom: 1px solid var(--border-color);
-  border-right: 1px solid var(--border-color);
+  border-right: 0px solid var(--border-color);
   border-top: 1px solid var(--border-color);
-  border-left: 0px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
   color: var(--fonts-color);
   background-color: var(--toolbar-active);
 }

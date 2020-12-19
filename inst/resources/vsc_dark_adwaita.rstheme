@@ -910,7 +910,7 @@ tr .GGBOEFPDOW,
   border-top-left-radius: 4px;
 }
 
-.GGBOEFPDI1 {
+.GGBOEFPDNVC .GGBOEFPDI1 {
   background: var(--button-gradient);
   border-top: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);

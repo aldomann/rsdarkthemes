@@ -915,6 +915,24 @@ tr .GGBOEFPDOW {
   color: var(--fonts-color);
 }
 
+.GGBOEFPDFRC {
+  background-color: var(--heading);
+  color: var(--fonts-color);
+}
+
+.GGBOEFPDFRC>td {
+  border-top: 1px rgb(60, 106, 144) solid !important;
+  border-bottom: 1px rgb(60, 106, 144) solid !important;
+}
+
+.GGBOEFPDHRC {
+  background-color: rgb(182, 232, 142);
+}
+
+.GGBOEFPDDRC {
+  background-color: rgb(255, 202, 198);
+}
+
 /* Widgets */
 .macintosh .gwt-CheckBox input[type="checkbox"],
 .linux .gwt-CheckBox input[type="checkbox"] {

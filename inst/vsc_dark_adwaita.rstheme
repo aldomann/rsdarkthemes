@@ -808,6 +808,81 @@ iframe {
   border-color: var(--border-color) !important;
 }
 
+/* Git Window */
+.GGBOEFPDEVC {
+  background-color: var(--editor-background);
+}
+
+.GGBOEFPDAVC {
+  background-color: var(--toolbar-active);
+}
+
+.GGBOEFPDDVC {
+  background-color: var(--toolbar-active);
+}
+
+.GGBOEFPDNVC {
+  background-color: var(--toolbar-active);
+}
+
+.GGBOEFPDAOC {
+  background: var(--ui-highlight);
+}
+
+.GGBOEFPDEW,
+.GGBOEFPDEW pre {
+  background: var(--editor-background);
+  border-color: var(--border-color);
+}
+
+.GGBOEFPDAVC .gwt-SplitLayoutPanel-VDragger {
+  height: 1px !important;
+  background: var(--border-color);
+}
+
+.GGBOEFPDNVC .gwt-SplitLayoutPanel-HDragger {
+  background: var(--border-color);
+  width: 1px !important;
+}
+
+.GGBOEFPDDVC {
+  background: var(--toolbar-active) !important;
+}
+
+.GGBOEFPDOU,
+.GGBOEFPDNVC,
+.GGBOEFPDLVC label,
+.GGBOEFPDKVC,
+.GGBOEFPDO3C {
+  color: var(--fonts-color);
+}
+
+.GGBOEFPDIV {
+  opacity: 0 !important;
+}
+
+.GGBOEFPDEW {
+  color: var(--editor-foreground);
+}
+
+.GGBOEFPDARC>tbody>tr>td {
+  border: 0px solid transparent;
+  border-right-color: rgba(0, 0, 0, 0) !important;
+}
+
+.GGBOEFPDENC {
+  border-bottom: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+  border-top: 1px solid var(--border-color);
+  border-left: 0px solid var(--border-color);
+  color: var(--fonts-color);
+  background-color: var(--toolbar-active);
+}
+
+.js-focus-visible .focus-visible:not(.gwt-MenuBar) {
+  outline: none;
+}
+
 /* Widgets */
 .macintosh .gwt-CheckBox input[type="checkbox"],
 .linux .gwt-CheckBox input[type="checkbox"] {
